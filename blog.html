@@ -14,7 +14,46 @@
 
 <body>
     <h1 class="title"><img src="./logo.png" /></h1>
+    <div class="box-container">
+        <div class="question-answer">
+            <h1>Difference between Local Storage and Session Storage</h1>
+            <p>Session Storage is available for the duration of the page session. It maintains a separate storage area
+                for each given origin. This will be removed when the page or browser is closed, reopen and restores. It
+                is session based so we dont need to delete it manually. It will be deleted when the browser is closed.
+            </p>
 
+            <p>Local Storage is also like session storage. It does the same thing, but the storage data persists even
+                when the browser is closed and reopened. This is not session based so we need to delete it via
+                javascript or manually</p>
+            <h1>Global Scope vs Block Scope</h1>
+            <p>Globar Scope contains all of the things outside of all the code blocks. Code blocks simply means a group
+                of statement that is surrouned by curly braces ({ }). We can use this variable anywhere in the code
+                section.</p>
+            <p>Local Scope refers the variable that contain inside all of the code blocks. Local variable has local
+                scope. So it is only accessible where it is declared. Outside that code blocks we can not access those
+                variable.</p>
+            <h1>How does Event Loop work?</h1>
+            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
+                which effectively runs it.</p>
+            <p>The Event Loops does one simple job. It monitors the Callback Queue and Call Stack. When it sees Call
+                Stack is empty, the Event Loop will take the first event from the queue. And then it will push to Call
+                Stack.</p>
+            <h1>How many ways are there to find 'Undefined' output?</h1>
+            <p>There are many ways we can get Undefined as output. Some are given below:</p>
+            <ul>
+                <li>Varibale that is not initialised will give undefined</li>
+                <li>Function with no return provide undefined</li>
+                <li>Parameter that is passed which is not in the function will provide undefined</li>
+                <li>If return has nothing in right side will provide undefined</li>
+                <li>If object doenst have the property to display or doesnt exits in the object then it will show
+                    undefined</li>
+                <li>Accessing array elements outside of the index range will provide undefined</li>
+                <li>Deleting an element from an array</li>
+                <li>If we assign undefined as value then it will provide undefined</li>
+            </ul>
+        </div>
+    </div>
 
     <script src="./history.js"></script>
     <script src="./script.js"></script>

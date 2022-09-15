@@ -188,6 +188,26 @@ button {
   top: 0;
 }
 
+.question-answer h1 {
+  color: white;
+}
+
+.question-answer p {
+  color: darkgrey;
+  margin: 30px;
+}
+
+.question-answer ul {
+  list-style-type: number;
+  margin: 30px 40px;
+  padding: 0;
+  color: darkgrey;
+}
+
+.question-answer ul li {
+  margin: 5px 0;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;

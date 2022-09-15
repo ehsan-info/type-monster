@@ -15,6 +15,9 @@
 <body>
     <h1 class="title"><img src="./logo.png" /></h1>
     <div class="box-container">
+        <div class="buttons">
+            <button onclick="location.href = '/index.html';">Home</button>
+        </div>
         <div class="question-answer">
             <h1>Difference between Local Storage and Session Storage</h1>
             <p>Session Storage is available for the duration of the page session. It maintains a separate storage area
@@ -33,9 +36,6 @@
                 scope. So it is only accessible where it is declared. Outside that code blocks we can not access those
                 variable.</p>
             <h1>How does Event Loop work?</h1>
-            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
-                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
-                which effectively runs it.</p>
             <p>The Event Loops does one simple job. It monitors the Callback Queue and Call Stack. When it sees Call
                 Stack is empty, the Event Loop will take the first event from the queue. And then it will push to Call
                 Stack.</p>

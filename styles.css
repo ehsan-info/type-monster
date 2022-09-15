@@ -150,11 +150,11 @@ button {
 #histories {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .card {
-  width: 100%;
+  width: 32%;
   height: 100%;
   padding: 50px;
   display: flex;
@@ -169,6 +169,7 @@ button {
       rgba(255, 255, 255, 0.05) 99.85%);
   backdrop-filter: blur(5px);
   margin-bottom: 30px;
+  margin-right: 1%;
 }
 
 #modal-background {
